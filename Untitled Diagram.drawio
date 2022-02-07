@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-02-07T14:10:59.194Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/97.0.4692.99 Safari/537.36" etag="CtvbZ2j9z87owp08l5BI" version="16.5.2" type="github">
+<mxfile host="app.diagrams.net" modified="2022-02-07T14:59:29.166Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/97.0.4692.99 Safari/537.36" etag="FqG-FCw8ESrkvc451zH1" version="16.5.2" type="github">
   <diagram id="IhuZx7cCNmI_ZCtVX3hZ" name="Page-1">
     <mxGraphModel dx="702" dy="516" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" background="none" math="0" shadow="0">
       <root>
@@ -6,18 +6,6 @@
         <mxCell id="1" parent="0" />
         <mxCell id="XP_8ainK6dqQLDjGRPUi-1" value="2. 绘制局部晚期结肠癌新辅助治疗前后的演化轨迹" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="27" y="60" width="540" height="30" as="geometry" />
-        </mxCell>
-        <mxCell id="XP_8ainK6dqQLDjGRPUi-2" value="多时间点多区域WES" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="171" y="99" width="120" height="60" as="geometry" />
-        </mxCell>
-        <mxCell id="XP_8ainK6dqQLDjGRPUi-3" value="正常配对样本" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="300" y="99" width="120" height="60" as="geometry" />
-        </mxCell>
-        <mxCell id="XP_8ainK6dqQLDjGRPUi-4" value="突变谱" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="171" y="213" width="120" height="60" as="geometry" />
-        </mxCell>
-        <mxCell id="XP_8ainK6dqQLDjGRPUi-5" value="拷贝数变异谱" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="304" y="213" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="XP_8ainK6dqQLDjGRPUi-9" value="突变克隆状态" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="725" y="99" width="120" height="60" as="geometry" />
@@ -28,29 +16,50 @@
         <mxCell id="XP_8ainK6dqQLDjGRPUi-11" value="肿瘤亚克隆演化轨迹" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="894" y="229" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="XP_8ainK6dqQLDjGRPUi-13" value="变异事件识别" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;rotation=-90;" vertex="1" parent="1">
-          <mxGeometry x="21" y="171" width="117" height="30" as="geometry" />
+        <mxCell id="XP_8ainK6dqQLDjGRPUi-13" value="变异事件识别" style="text;html=1;strokeColor=default;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;rotation=-90;" vertex="1" parent="1">
+          <mxGeometry x="32" y="196" width="117" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="XP_8ainK6dqQLDjGRPUi-16" value="exomeCopy" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;dashed=1;" vertex="1" parent="1">
-          <mxGeometry x="321" y="169" width="60" height="30" as="geometry" />
+        <mxCell id="XP_8ainK6dqQLDjGRPUi-48" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="XP_8ainK6dqQLDjGRPUi-41" target="XP_8ainK6dqQLDjGRPUi-47">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="XP_8ainK6dqQLDjGRPUi-17" value="Mutect" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;dashed=1;" vertex="1" parent="1">
-          <mxGeometry x="214" y="165" width="60" height="30" as="geometry" />
+        <mxCell id="XP_8ainK6dqQLDjGRPUi-92" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="XP_8ainK6dqQLDjGRPUi-41" target="XP_8ainK6dqQLDjGRPUi-80">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="XP_8ainK6dqQLDjGRPUi-18" value="VarScan2" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;dashed=1;" vertex="1" parent="1">
-          <mxGeometry x="214" y="183" width="60" height="30" as="geometry" />
+        <mxCell id="XP_8ainK6dqQLDjGRPUi-41" value="" style="rounded=0;whiteSpace=wrap;html=1;shadow=0;sketch=0;strokeWidth=1;fillColor=none;dashed=1;" vertex="1" parent="1">
+          <mxGeometry x="114" y="93" width="395" height="290" as="geometry" />
         </mxCell>
-        <mxCell id="XP_8ainK6dqQLDjGRPUi-33" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1">
+        <mxCell id="XP_8ainK6dqQLDjGRPUi-42" value="" style="group" vertex="1" connectable="0" parent="1">
+          <mxGeometry x="123" y="99" width="375" height="275" as="geometry" />
+        </mxCell>
+        <mxCell id="XP_8ainK6dqQLDjGRPUi-2" value="多时间点多区域WES" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="XP_8ainK6dqQLDjGRPUi-42">
+          <mxGeometry x="48" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="XP_8ainK6dqQLDjGRPUi-3" value="正常配对样本" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="XP_8ainK6dqQLDjGRPUi-42">
+          <mxGeometry x="177" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="XP_8ainK6dqQLDjGRPUi-4" value="突变谱" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="XP_8ainK6dqQLDjGRPUi-42">
+          <mxGeometry x="48" y="114" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="XP_8ainK6dqQLDjGRPUi-5" value="拷贝数变异谱" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="XP_8ainK6dqQLDjGRPUi-42">
+          <mxGeometry x="181" y="114" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="XP_8ainK6dqQLDjGRPUi-16" value="exomeCopy" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;dashed=1;" vertex="1" parent="XP_8ainK6dqQLDjGRPUi-42">
+          <mxGeometry x="198" y="70" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="XP_8ainK6dqQLDjGRPUi-17" value="Mutect" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;dashed=1;" vertex="1" parent="XP_8ainK6dqQLDjGRPUi-42">
+          <mxGeometry x="91" y="66" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="XP_8ainK6dqQLDjGRPUi-18" value="VarScan2" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;dashed=1;" vertex="1" parent="XP_8ainK6dqQLDjGRPUi-42">
+          <mxGeometry x="91" y="84" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="XP_8ainK6dqQLDjGRPUi-33" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="XP_8ainK6dqQLDjGRPUi-42">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="296" y="166" as="sourcePoint" />
-            <mxPoint x="296.5" y="209.93" as="targetPoint" />
+            <mxPoint x="173" y="67" as="sourcePoint" />
+            <mxPoint x="173.5" y="110.93" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="XP_8ainK6dqQLDjGRPUi-34" value="" style="line;strokeWidth=2;html=1;shadow=0;sketch=0;fillColor=#000000;" vertex="1" parent="1">
-          <mxGeometry x="525" y="423" width="160" height="10" as="geometry" />
-        </mxCell>
-        <mxCell id="XP_8ainK6dqQLDjGRPUi-38" value="" style="group" vertex="1" connectable="0" parent="1">
-          <mxGeometry x="123" y="314" width="375" height="60" as="geometry" />
+        <mxCell id="XP_8ainK6dqQLDjGRPUi-38" value="" style="group" vertex="1" connectable="0" parent="XP_8ainK6dqQLDjGRPUi-42">
+          <mxGeometry y="215" width="375" height="60" as="geometry" />
         </mxCell>
         <mxCell id="XP_8ainK6dqQLDjGRPUi-6" value="肿瘤纯度与倍数" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="XP_8ainK6dqQLDjGRPUi-38">
           <mxGeometry width="120" height="60" as="geometry" />
@@ -61,14 +70,105 @@
         <mxCell id="XP_8ainK6dqQLDjGRPUi-8" value="绝对拷贝数" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="XP_8ainK6dqQLDjGRPUi-38">
           <mxGeometry x="255" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="XP_8ainK6dqQLDjGRPUi-39" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1">
+        <mxCell id="XP_8ainK6dqQLDjGRPUi-39" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="XP_8ainK6dqQLDjGRPUi-42">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="297" y="274" as="sourcePoint" />
-            <mxPoint x="296.5" y="308" as="targetPoint" />
+            <mxPoint x="174" y="175" as="sourcePoint" />
+            <mxPoint x="173.5" y="209" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="XP_8ainK6dqQLDjGRPUi-40" value="Absolute" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;shadow=0;sketch=0;" vertex="1" parent="1">
-          <mxGeometry x="311" y="278" width="60" height="30" as="geometry" />
+        <mxCell id="XP_8ainK6dqQLDjGRPUi-40" value="Absolute" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;shadow=0;sketch=0;" vertex="1" parent="XP_8ainK6dqQLDjGRPUi-42">
+          <mxGeometry x="188" y="179" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="XP_8ainK6dqQLDjGRPUi-51" value="推断遗传改变克隆状态" style="text;html=1;strokeColor=default;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;shadow=0;sketch=0;rotation=-90;" vertex="1" parent="1">
+          <mxGeometry x="17.5" y="453" width="146" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="XP_8ainK6dqQLDjGRPUi-56" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="296" y="166" as="sourcePoint" />
+            <mxPoint x="296.5" y="209.93000000000006" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="XP_8ainK6dqQLDjGRPUi-66" value="推断样本亚克隆结构" style="text;html=1;strokeColor=default;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;shadow=0;sketch=0;rotation=-90;" vertex="1" parent="1">
+          <mxGeometry x="491" y="493.5" width="111" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="XP_8ainK6dqQLDjGRPUi-73" value="" style="group" vertex="1" connectable="0" parent="1">
+          <mxGeometry x="115" y="412" width="161" height="111" as="geometry" />
+        </mxCell>
+        <mxCell id="XP_8ainK6dqQLDjGRPUi-47" value="" style="rounded=0;whiteSpace=wrap;html=1;shadow=0;sketch=0;strokeColor=default;strokeWidth=1;fillColor=none;dashed=1;" vertex="1" parent="XP_8ainK6dqQLDjGRPUi-73">
+          <mxGeometry width="161" height="111" as="geometry" />
+        </mxCell>
+        <mxCell id="XP_8ainK6dqQLDjGRPUi-45" value="计算突变肿瘤细胞比例" style="rounded=1;whiteSpace=wrap;html=1;shadow=0;sketch=0;strokeColor=default;strokeWidth=1;fillColor=none;" vertex="1" parent="XP_8ainK6dqQLDjGRPUi-73">
+          <mxGeometry x="11" y="11" width="138" height="39" as="geometry" />
+        </mxCell>
+        <mxCell id="XP_8ainK6dqQLDjGRPUi-46" value="确定突变克隆状态" style="rounded=1;whiteSpace=wrap;html=1;shadow=0;sketch=0;strokeColor=default;strokeWidth=1;fillColor=none;" vertex="1" parent="XP_8ainK6dqQLDjGRPUi-73">
+          <mxGeometry x="20.5" y="65" width="120" height="33" as="geometry" />
+        </mxCell>
+        <mxCell id="XP_8ainK6dqQLDjGRPUi-50" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="XP_8ainK6dqQLDjGRPUi-73" source="XP_8ainK6dqQLDjGRPUi-45" target="XP_8ainK6dqQLDjGRPUi-46">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="XP_8ainK6dqQLDjGRPUi-91" value="" style="group" vertex="1" connectable="0" parent="1">
+          <mxGeometry x="283" y="412" width="240" height="193" as="geometry" />
+        </mxCell>
+        <mxCell id="XP_8ainK6dqQLDjGRPUi-80" value="" style="rounded=0;whiteSpace=wrap;html=1;shadow=0;sketch=0;strokeColor=default;strokeWidth=1;fillColor=none;dashed=1;" vertex="1" parent="XP_8ainK6dqQLDjGRPUi-91">
+          <mxGeometry width="240" height="193" as="geometry" />
+        </mxCell>
+        <mxCell id="XP_8ainK6dqQLDjGRPUi-90" value="" style="group" vertex="1" connectable="0" parent="XP_8ainK6dqQLDjGRPUi-91">
+          <mxGeometry x="8" y="9" width="220" height="183" as="geometry" />
+        </mxCell>
+        <mxCell id="XP_8ainK6dqQLDjGRPUi-81" value="整合" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;shadow=0;sketch=0;" vertex="1" parent="XP_8ainK6dqQLDjGRPUi-90">
+          <mxGeometry x="31" y="101" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="XP_8ainK6dqQLDjGRPUi-87" value="" style="group" vertex="1" connectable="0" parent="XP_8ainK6dqQLDjGRPUi-90">
+          <mxGeometry y="134" width="220" height="49" as="geometry" />
+        </mxCell>
+        <mxCell id="XP_8ainK6dqQLDjGRPUi-69" value="亚克隆结构" style="rounded=1;whiteSpace=wrap;html=1;shadow=0;sketch=0;strokeColor=default;strokeWidth=1;fillColor=none;" vertex="1" parent="XP_8ainK6dqQLDjGRPUi-87">
+          <mxGeometry width="75" height="35" as="geometry" />
+        </mxCell>
+        <mxCell id="XP_8ainK6dqQLDjGRPUi-70" value="系统发生树" style="rounded=1;whiteSpace=wrap;html=1;shadow=0;sketch=0;strokeColor=default;strokeWidth=1;fillColor=none;spacing=1;" vertex="1" parent="XP_8ainK6dqQLDjGRPUi-87">
+          <mxGeometry x="133" y="2" width="87" height="31" as="geometry" />
+        </mxCell>
+        <mxCell id="XP_8ainK6dqQLDjGRPUi-71" value="ClonEvol" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;shadow=0;sketch=0;" vertex="1" parent="XP_8ainK6dqQLDjGRPUi-87">
+          <mxGeometry x="73" y="19" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="XP_8ainK6dqQLDjGRPUi-79" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="XP_8ainK6dqQLDjGRPUi-87" source="XP_8ainK6dqQLDjGRPUi-69" target="XP_8ainK6dqQLDjGRPUi-70">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="XP_8ainK6dqQLDjGRPUi-88" value="" style="group" vertex="1" connectable="0" parent="XP_8ainK6dqQLDjGRPUi-90">
+          <mxGeometry width="220" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="XP_8ainK6dqQLDjGRPUi-53" value="" style="rounded=1;whiteSpace=wrap;html=1;shadow=0;sketch=0;strokeColor=default;strokeWidth=1;fillColor=none;" vertex="1" parent="XP_8ainK6dqQLDjGRPUi-88">
+          <mxGeometry width="220" height="99" as="geometry" />
+        </mxCell>
+        <mxCell id="XP_8ainK6dqQLDjGRPUi-83" value="" style="group" vertex="1" connectable="0" parent="XP_8ainK6dqQLDjGRPUi-88">
+          <mxGeometry x="11" y="10" width="195" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="XP_8ainK6dqQLDjGRPUi-55" value="PyClone" style="shape=document;whiteSpace=wrap;html=1;boundedLbl=1;shadow=0;sketch=0;strokeColor=default;strokeWidth=1;fillColor=none;" vertex="1" parent="XP_8ainK6dqQLDjGRPUi-83">
+          <mxGeometry width="57" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="XP_8ainK6dqQLDjGRPUi-60" value="CliP" style="shape=document;whiteSpace=wrap;html=1;boundedLbl=1;shadow=0;sketch=0;strokeColor=default;strokeWidth=1;fillColor=none;" vertex="1" parent="XP_8ainK6dqQLDjGRPUi-83">
+          <mxGeometry x="70" y="37" width="41" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="XP_8ainK6dqQLDjGRPUi-61" value="Ccube" style="shape=document;whiteSpace=wrap;html=1;boundedLbl=1;shadow=0;sketch=0;strokeColor=default;strokeWidth=1;fillColor=none;" vertex="1" parent="XP_8ainK6dqQLDjGRPUi-83">
+          <mxGeometry y="37" width="41" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="XP_8ainK6dqQLDjGRPUi-63" value="PhyloWGS" style="shape=document;whiteSpace=wrap;html=1;boundedLbl=1;shadow=0;sketch=0;strokeColor=default;strokeWidth=1;fillColor=none;" vertex="1" parent="XP_8ainK6dqQLDjGRPUi-83">
+          <mxGeometry x="64" width="70" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="XP_8ainK6dqQLDjGRPUi-64" value="CTPsingle" style="shape=document;whiteSpace=wrap;html=1;boundedLbl=1;shadow=0;sketch=0;strokeColor=default;strokeWidth=1;fillColor=none;" vertex="1" parent="XP_8ainK6dqQLDjGRPUi-83">
+          <mxGeometry x="125" y="37" width="70" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="XP_8ainK6dqQLDjGRPUi-65" value="DPClust" style="shape=document;whiteSpace=wrap;html=1;boundedLbl=1;shadow=0;sketch=0;strokeColor=default;strokeWidth=1;fillColor=none;" vertex="1" parent="XP_8ainK6dqQLDjGRPUi-83">
+          <mxGeometry x="142" width="53" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="XP_8ainK6dqQLDjGRPUi-67" value="亚克隆重构算法" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;shadow=0;sketch=0;" vertex="1" parent="XP_8ainK6dqQLDjGRPUi-83">
+          <mxGeometry x="61" y="60" width="87" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="XP_8ainK6dqQLDjGRPUi-86" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="XP_8ainK6dqQLDjGRPUi-90" source="XP_8ainK6dqQLDjGRPUi-53" target="XP_8ainK6dqQLDjGRPUi-69">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="38" y="135" />
+            </Array>
+          </mxGeometry>
         </mxCell>
       </root>
     </mxGraphModel>
