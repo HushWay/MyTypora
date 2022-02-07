@@ -1,11 +1,11 @@
-<mxfile host="app.diagrams.net" modified="2022-02-07T15:37:58.418Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/97.0.4692.99 Safari/537.36" etag="JY9-1dStLSkkWy-Sc3xt" version="16.5.2" type="github">
+<mxfile host="app.diagrams.net" modified="2022-02-07T15:40:40.935Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/97.0.4692.99 Safari/537.36" etag="5LQ_D6rZ644zIkQC4POA" version="16.5.2" type="github">
   <diagram id="IhuZx7cCNmI_ZCtVX3hZ" name="Page-1">
-    <mxGraphModel dx="1830" dy="657" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" background="none" math="0" shadow="0">
+    <mxGraphModel dx="1003" dy="737" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" background="none" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
-        <mxCell id="XP_8ainK6dqQLDjGRPUi-1" value="2. 绘制局部晚期结肠癌新辅助治疗前后的演化轨迹" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="-64.5" y="90" width="540" height="30" as="geometry" />
+        <mxCell id="XP_8ainK6dqQLDjGRPUi-1" value="2. 绘制局部晚期结肠癌新辅助治疗前后的演化轨迹" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontStyle=1;fontSize=16;" vertex="1" parent="1">
+          <mxGeometry x="62" y="97" width="540" height="30" as="geometry" />
         </mxCell>
         <mxCell id="XP_8ainK6dqQLDjGRPUi-51" value="推断遗传改变克隆状态" style="text;html=1;strokeColor=default;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;shadow=0;sketch=0;rotation=0;" vertex="1" parent="1">
           <mxGeometry x="359" y="529" width="146" height="30" as="geometry" />
@@ -188,6 +188,9 @@
         </mxCell>
         <mxCell id="XP_8ainK6dqQLDjGRPUi-40" value="Absolute" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;shadow=0;sketch=0;" vertex="1" parent="XP_8ainK6dqQLDjGRPUi-113">
           <mxGeometry x="194" y="143" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="XP_8ainK6dqQLDjGRPUi-114" value="" style="rounded=0;whiteSpace=wrap;html=1;shadow=0;sketch=0;fontSize=16;strokeColor=default;strokeWidth=1;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="62" y="134" width="463" height="653" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
